@@ -10,18 +10,7 @@ header {
     margin: 0px;
 }
 
-.pagehtml, .pagejs {
-    margin-left: 40px;
-    margin-top: 15px;
-}
-
-.pagehtml:hover, .pagejs:hover {
-    background-color: hsl(0, 0%, 15%);
-    border: 2px solid hsl(0, 0%, 10%);
-    border-radius: 20px;
-}
-
-.pagecss {
+.pagejs {
     margin-left: 40px;
     margin-top: 15px;
     background-color: hsl(0, 0%, 10%);
@@ -29,7 +18,18 @@ header {
     border-radius: 20px;
 }
 
-.pagecss:hover {
+.pagejs:hover {
+    background-color: hsl(0, 0%, 15%);
+    border: 2px solid hsl(0, 0%, 10%);
+    border-radius: 20px;
+}
+
+.pagecss, .pagehtml{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.pagecss:hover, .pagehtml:hover{
     background-color: hsl(0, 0%, 15%);
     border: 2px solid hsl(0, 0%, 10%);
     border-radius: 20px;

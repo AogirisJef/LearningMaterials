@@ -24,12 +24,12 @@ header {
     border-radius: 20px;
 }
 
-.pagecss {
+.pagecss, .pagejs{
     margin-left: 40px;
     margin-top: 15px;
 }
 
-.pagecss:hover {
+.pagecss:hover, .pagejs:hover{
     background-color: hsl(0, 0%, 15%);
     border: 2px solid hsl(0, 0%, 10%);
     border-radius: 20px;
